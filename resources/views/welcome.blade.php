@@ -193,7 +193,7 @@
 
     <div class="grid-links">
       <a href="https://hungerstation.com/sa-en/restaurant/riyadh/wazarat/147049" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}');" aria-label="Hungerstation"></a>
-      <a href="https://jahez.app.link/3HBYJSdqdUb?_p=c51429c4981c65f2e60386fb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez"></a>
+      <a href="https://jahez.link/3HBYJSdqdUb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez"></a>
       <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}');" aria-label="Chefz"></a>
     </div>
     <div style="margin-top: 30px;">
