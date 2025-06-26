@@ -42,8 +42,8 @@
       z-index: 2;
     }
     .logo img {
-      width: 120px;
-      max-width: 40vw;
+      width: 180px;
+      max-width: 60vw;
       margin-bottom: 24px;
       border-radius: 50%;
       border: 4px solid var(--secondary);
@@ -55,6 +55,7 @@
       grid-template-columns: 1fr;
       gap: 18px;
       margin-top: 24px;
+      justify-content: center;
     }
     @media (min-width: 600px) {
       .grid-links {
@@ -74,6 +75,8 @@
       background-color: var(--muted);
       border-radius: 18px;
       min-height: 160px;
+      width: 200px;
+      margin: 0 auto;
       box-shadow: 0 2px 12px rgba(0,0,0,0.06);
       text-align: center;
       transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
@@ -189,13 +192,11 @@
     <div class="logo">
       <img src="{{ asset('images/logo.png') }}" alt="Delawa Logo" />
     </div>
+    <div style="display: flex; justify-content: center; margin-top: 18px;">
+      <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}'); width: 200px; min-height: 160px; margin: 0 auto;" aria-label="Chefz"></a>
+    </div>
     {{-- <h2 style="font-size: 20px; font-weight: 600; margin-bottom: 35px;">هتلاقوني في</h2> --}}
 
-    <div class="grid-links">
-      <a href="https://hungerstation.com/sa-en/restaurant/riyadh/wazarat/147049" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}');" aria-label="Hungerstation"></a>
-      <a href="https://jahez.link/to1aiMIYjUb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez"></a>
-      <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}');" aria-label="Chefz"></a>
-    </div>
     <div style="margin-top: 30px;">
       <a href="https://qrcode1.adv-line.sa/form" target="_blank" class="feedback-btn" style="display: inline-block; background-color: #000; color: #fff; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;">
         قيم تجربتك معنا من هنا
