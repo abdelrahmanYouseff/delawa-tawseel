@@ -193,6 +193,11 @@
       <img src="{{ asset('images/logo.png') }}" alt="Delawa Logo" />
     </div>
 
+    <div style="display: flex; justify-content: center; margin-top: 18px;">
+      <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}'); width: 200px; min-height: 160px; margin: 0 auto;" aria-label="Chefz"></a>
+    </div>
+    {{-- <h2 style="font-size: 20px; font-weight: 600; margin-bottom: 35px;">هتلاقوني في</h2> --}}
+
     <div style="margin-top: 30px;">
       <a href="https://qrcode1.adv-line.sa/form" target="_blank" class="feedback-btn" style="display: inline-block; background-color: #000; color: #fff; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;">
         قيم تجربتك معنا من هنا
