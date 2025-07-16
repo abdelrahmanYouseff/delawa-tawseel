@@ -192,14 +192,19 @@
     <div class="logo">
       <img src="{{ asset('images/logo.png') }}" alt="Delawa Logo" />
     </div>
-
     <div style="margin-top: 30px;">
       <a href="https://qrcode1.adv-line.sa/form" target="_blank" class="feedback-btn" style="display: inline-block; background-color: #000; color: #fff; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;">
         قيم تجربتك معنا من هنا
       </a>
     </div>
-    <div style="display: flex; justify-content: center; margin-top: 48px;">
-      <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}'); width: 200px; min-height: 160px; margin: 0 auto;" aria-label="Chefz"></a>
+    <div class="grid-links" style="margin-top: 48px;">
+      <a href="https://jahez.menu/restaurants/552274" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez">
+      </a>
+      <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}');" aria-label="Chefz">
+      </a>
+      <a href="https://hungerstation.com/sa-ar/restaurant/552274?utm_source=share" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}');" aria-label="HungerStation">
+      </a>
+
     </div>
   </div>
 
