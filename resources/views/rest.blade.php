@@ -198,11 +198,11 @@
       </a>
     </div>
     <div class="grid-links" style="margin-top: 48px;">
-      <a href="https://jahez.menu/restaurants/552274" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez">
+      <a href="https://jahez.link/mjyxSwRO2Ub" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}');" aria-label="Jahez">
       </a>
       <a href="https://thechefzco.app.link/sXRjUP4PVTb" class="link-card" style="background-image: url('{{ asset('images/the-chefz.png') }}');" aria-label="Chefz">
       </a>
-      <a href="https://hungerstation.com/sa-ar/restaurant/552274?utm_source=share" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}');" aria-label="HungerStation">
+      <a href="https://hungerstation.com/sa-en/restaurant/riyadh/king-abdulaziz-neighborhood/147049" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}');" aria-label="HungerStation">
       </a>
 
     </div>
